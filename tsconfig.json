@@ -11,6 +11,16 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "my-library": [
+        "dist/my-library/my-library",
+        "dist/my-library"
+      ],
+      "my-library-twp": [
+        "dist/my-library-twp/my-library-twp",
+        "dist/my-library-twp"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
